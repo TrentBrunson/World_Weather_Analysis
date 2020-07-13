@@ -16,6 +16,8 @@ Generated a set of 1500+ locations, matched those geo coords to the nearest city
 ### Weather App DataFrame <br/>
 ![Wx_DF_Sample](WX_DF_extract.png)  
 
+---
+
 ### Part 2 - Refine with vacation search criteria  
 
 Set up conditions to consume customer preferences based on temperature ranges and precipitation that are used to narrow search criteria.  Used Google Maps API to match locations with available hotels.  Returned this in a new DataFrame and built heatmaps based on customer criteria and search results.   
