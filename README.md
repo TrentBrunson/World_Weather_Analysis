@@ -12,22 +12,22 @@ Created a basic app interface for a user to request information about weather co
 ---
 
 ### Part 1 - Build city database and match weather to locations
-Generated a set of 1500+ locations, matched those geo coords to the nearest city with City Py.  Then gathered weather information into a Pandas DataFrame to provide the information for the new App features.  
+Generated a set of 1500+ locations, matched those geo coords to the nearest city with CityPy.  Then gathered weather information into a Pandas DataFrame to provide the information for the new App features.  
 ### Weather App DataFrame <br/>
 ![Wx_DF_Sample](WX_DF_extract.png)  
 
-### Part 2 - Refine with vacation search criteria
+### Part 2 - Refine with vacation search criteria  
 
 Set up conditions to consume customer preferences based on temperature ranges and precipitation that are used to narrow search criteria.  Used Google Maps API to match locations with available hotels.  Returned this in a new DataFrame and built heatmaps based on customer criteria and search results.   
 
-![Vacation_Results](Vacation_criteria.png)
+![Vacation_Results](Vacation_criteria.png)  
 ![Vacay_Map](image/backup/WeatherPy_vacation_map.png)  
 
 ---
 
 ### Part 3 - Travel Itinerary  
 
-Finally, selected four cities to create travel routing using Google Maps API.
+Finally, selected four cities to create travel routing using Google Maps API.  
 
 ![Selected_Destinations](image/backup/WeatherPy_travel_map_markers.png)  
 ![Travel_Map](image/backup/WeatherPy_travel_map.png)  
