@@ -11,7 +11,7 @@ Created a basic app interface for a user to request information about weather co
 
 ---
 
-### Part 1 - BUild city database and match weather to locations
+### Part 1 - Build city database and match weather to locations
 Generated a set of 1500+ locations, matched those geo coords to the nearest city with City Py.  Then gathered weather information into a Pandas DataFrame to provide the information for the new App features.  
 ### Weather App DataFrame <br/>
 ![Wx_DF_Sample](WX_DF_extract.png)  
